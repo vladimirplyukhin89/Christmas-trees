@@ -26,7 +26,8 @@ body {
     color: var(--main-color);
 }
 
-h1, h2 {
+h1, h2, h3, p {
+    margin: 0;
     font-family: Cormorant, serif;
     font-weight: 700;
     line-height: 100%;
@@ -71,3 +72,9 @@ button {
 
 }
 }
+/*
+@media (max-width: 1000px) {
+    .b-page_newyear .b-head_decor {
+        top: -45px;
+}
+}*/
