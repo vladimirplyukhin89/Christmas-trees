@@ -69,12 +69,17 @@ button {
 @media (max-width: 1440px) {
     .container {
     padding: 0 42px;
+    }
+}
 
+@media (max-width: 1000px){
+    .container {
+    padding: 0 39px;
+  }
 }
+
+@media (max-width: 580px){
+    .container {
+    padding: 0 10px;
+  }
 }
-/*
-@media (max-width: 1000px) {
-    .b-page_newyear .b-head_decor {
-        top: -45px;
-}
-}*/
