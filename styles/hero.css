@@ -59,9 +59,9 @@
 }
 
 @media (max-width: 1440px) {
-    .hero {
-        width: 41vw;
-    }
+    /*.hero {
+        /*width: 41vw;*/
+    }*/
 
     .hero__left {
         margin-left: -70px;
@@ -84,7 +84,8 @@
 
 @media (max-width: 1200px) {
     .hero__left {
-        margin-left: -42px;
+        /*margin-left: -42px;*/
+        margin-right: 50px
     }
     
     .hero__right {
@@ -116,7 +117,7 @@
 
 @media (max-width: 1000px) {
     .hero__left {
-        margin-left: -39px;
+        margin-left: -40px;
         margin-right: 50px;
     }
     
@@ -145,6 +146,7 @@
     }
 
 }
+
 @media (max-width: 760px) {
     .hero__container {
         flex-direction: column;
@@ -164,7 +166,8 @@
 
 @media (max-width: 580px) {
     .hero__left {
-        margin: 0 -10px;
+        margin: 0 -15px;
+        padding-right: 0;
     }
 
     .hero__title {

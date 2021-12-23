@@ -7,9 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christmas Trees - Встречай Новый Год с прекрасной живой ёлочкой!</title>
     <link rel="preload" href="fonts/cormorant-v11-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+    <style>
+        :root {
+            --main-color: #fff;
+            --second-color: #262626;
+            --one-color: #00654E;
+            --two-color: #006E55;
+            --three-color: #005844;
+            --main-bg-color: #005844;
+            --second-bg-color: #C0B487;
+            --trigger-color: #E6AB39;
+            --url-features-one: url("../img/tree.svg");
+            --url-features-two: url("../img/balls.svg");
+            --url-features-three: url("../img/flowers.svg");
+            --url-features-four: url("../img/delivery-truck.svg");
+        }
+    </style>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="ball/ball.css">
+    <link rel="stylesheet" href="styles/index.css">
     <script src="ball/ball.js" defer></script>
 </head>
 
@@ -73,7 +89,13 @@
 
         <section class="features">
             <div class="container">
-
+                <h2 class="visually-hidden">Преимущества</h2>
+                <ul class="features__list">
+                    <li class="features__item features__item_one">Пушистые и ароматные ёлочки</li>
+                    <li class="features__item features__item_two">Набор ёлочных украшений в подарок</li>
+                    <li class="features__item features__item_three">Ёлочки сохранят свежесть надолго</li>
+                    <li class="features__item features__item_four">Доставим ёлочку за наш счет</li>
+                </ul>
             </div>
         </section>
 
