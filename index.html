@@ -211,6 +211,40 @@
     <footer class="footer">
         <div class="container"></div>
     </footer>
+
+    <div class="overlay overlay_order">
+
+    </div>
+
+    <div class="overlay overlay_consultation">
+        <div class="modal">
+            <button class="modal__close">
+                <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                        fill="currentColor" />
+                </svg>
+            </button>
+
+            <h2 class="modal__title">Оформить заказ</h2>
+
+            <form class="modal__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                <label class="modal__label">
+                    <span class="modal__label-text">ФИО</span>
+                    <input class="modal__input" type="text" placeholder="Введите ваш ФИО">
+                </label>
+                <label class="modal__label">
+                    <span class="modal__label-text">Телефон</span>
+                    <input class="modal__input" type="tel" placeholder="Введите ваш телефон">
+                </label>
+                <input type="hidden" name="order">
+
+                <button class="modal__btn">Заказать звонок</button>
+            </form>
+
+        </div>
+    </div>
+
     <svg class="hide">
         <symbol id="logo" width="164" height="76" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
