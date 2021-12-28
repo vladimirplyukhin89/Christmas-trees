@@ -6,6 +6,7 @@
     border: 1px solid var(--second-color);
     box-sizing: border-box;
     padding: 60px 85px;
+    color: var(--second-color);
 }
 
 .modal__close {
@@ -41,4 +42,34 @@
     text-align: center;
     letter-spacing: 0.04em;
     margin-bottom: 50px;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__label {
+    display: block;
+    position: relative;
+    
+}
+
+.modal__label-text {
+    color: var(--second-color);
+    position: absolute;
+    top: 12px;
+    left: 15px;
+
+
+}
+
+.modal__input {
+    width: 100%;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    padding: 45px 15px 31px;
+    border-radius: 12px;
+    border: 1px solid #AFAFAF;
 }
