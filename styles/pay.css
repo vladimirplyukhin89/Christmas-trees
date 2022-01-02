@@ -20,5 +20,60 @@
 
 .pay__item {
     flex-basis: calc((100% / 3) - (60px / 3));
+}
 
+@media (max-width: 1440px) {
+    .pay__title {
+        font-size: 60px;
+   }
+}
+@media (max-width: 1200px) {
+    .pay__title {
+        font-size: 50px;
+    }
+
+    .pay__list {
+        gap: 20px;
+
+    }
+
+    .pay__item {
+        flex-basis: calc((100% / 3) - (40px / 3));
+
+    }
+}
+@media (max-width: 1000px) {
+    .pay__title {
+        font-size: 40px;
+    }
+    
+    .pay__list {
+        gap: 30px;
+    }
+    
+    .pay__item {
+        flex-basis: calc((100% / 3) - (68px / 3));
+    }
+}
+@media (max-width: 760px) {
+    .pay__title {
+        font-size: 30px;
+    } 
+    
+    .pay__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pay__item {
+        flex-basis: auto;
+        width: 65%;
+
+    }
+}
+
+@media (max-width: 580px) {
+    .pay__title {
+        font-size: 28px;
+   }
 }
