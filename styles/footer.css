@@ -48,3 +48,90 @@
     width: 40px;
     height: 40px;
 }
+
+@media (max-width: 1200px) {
+    .footer {
+        padding: 57px 0;
+        font-size: 16px;
+    }
+    
+    .footer__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 53px 30px;
+
+    }
+
+    .footer__contacts { 
+        font-size: 20px;
+    }
+
+    .footer__link-social {
+        width: 30px;
+        height: 30px;
+    }
+
+
+}
+@media (max-width: 1000px) {
+    .footer__container {
+        grid-template-columns: 4fr 5fr 4fr;
+        gap: 40px 24px;
+    }
+
+    .footer {
+        padding: 57px 0;
+        font-size: 14px;
+    }
+
+    .footer__contacts { 
+        font-size: 16px;
+    }
+
+    .footer__link-social {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+@media (max-width: 760px) {
+     .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .foooter__logo,
+    .footer__list-social {
+        order: -1;
+    }
+
+}
+
+@media (max-width: 580px) {
+     .footer__container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer {
+        font-size: 12px;
+        padding: 30px 0;
+    }
+
+    .foooter__logo,
+    .footer__list-social {
+        order: -1;
+    }
+
+    .footer__rules-list,
+    .footer__contacts {
+        order: -1;
+    }
+
+    .footer__contacts {
+        font-size: 14px;
+    }
+}
