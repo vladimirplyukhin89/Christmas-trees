@@ -13,9 +13,9 @@
     display: none;
 }
 
-.overlay__order {
+/*.overlay__order {
     display: flex;
-}
+}*/
 
 .overlay_active {
     display: flex;
