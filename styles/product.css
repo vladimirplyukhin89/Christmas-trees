@@ -64,7 +64,12 @@
     font-size: 18px;
     line-height: 130%;
     letter-spacing: 0.04em;
+    box-shadow: 4px 4px 8px 4px var(--second-color);
     color: var(--main-color);
+    background-color: transparent;
+    transition-property: background-color, border-color, color, box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
 
 }
 
@@ -89,6 +94,7 @@
     background-color: var(--second-bg-color);
     border-color: var(--second-bg-color);
     color: var(--main-color);
+    box-shadow: 2px 2px 8px 2px var(--second-color);
 }
 
 .product__button_order:focus { 
