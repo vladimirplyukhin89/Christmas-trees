@@ -21,7 +21,7 @@ const createSnow = (n) => {
 
         @keyframes fall {
             100% {
-                transform: translateY(100vh);
+                transform: translate(100vh, 150vw);
             }
         }
     `;
